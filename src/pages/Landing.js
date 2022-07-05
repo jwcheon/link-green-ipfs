@@ -13,9 +13,11 @@ function Landing() {
       <TemplateBasic>
         {/* TODO: Refactor this based on LandingSample.json */}
         <Profile />
-        <TextLink text="🔴 Please read this!" />
-        <TextLink text="🙏 Read more for XYZ!" />
-        <TextLink text="🛠 Currently we are building...!" />
+        <TextLink text="🔴 Please read this!" link="" />
+        <TextLink text="🙏 Read more for XYZ!" link="" />
+        <TextLink text="🛠 Currently we are building...!" link="" />
+        <YoutubeLink text="🎥 Watch our intro" />
+        <YoutubeLink/>
       </TemplateBasic>
     );
   }
