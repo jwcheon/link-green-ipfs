@@ -6,5 +6,5 @@ function ImageLink() {
     );
   }
   
-  export default ImageLink;
+export default ImageLink;
   
